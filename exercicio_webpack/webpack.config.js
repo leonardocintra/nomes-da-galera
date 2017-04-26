@@ -11,3 +11,5 @@ module.exports = {
         contentBase: './public'
     }
 }
+
+// ver aula 12 caso der problema se tiver que instalar o Babel (lib)
