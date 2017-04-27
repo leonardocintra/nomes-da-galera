@@ -1,6 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Component from './component'
+import { Primeiro} from './component'
 
-ReactDOM.render(<Component value="Leonardo"/>, document.getElementById('app'))
+ReactDOM.render(
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>
+    , 
+    document.getElementById('app')
+)
+
+
+/* O JEITO ABAIXO O REACT NÃO ACEITA, TEM QUE POR A TAG (DIV)*
+
+ ReactDOM.render(
+    <Primeiro />
+    <Segundo />
+    , 
+    document.getElementById('app')
+)
+ */
