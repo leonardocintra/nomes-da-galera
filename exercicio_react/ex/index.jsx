@@ -1,24 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { Primeiro} from './component'
+import CintraFamily from './cintraFamily'
 
 ReactDOM.render(
-    <div>
-        <Primeiro />
-        <Segundo />
-    </div>
-    , 
+    <CintraFamily />, 
     document.getElementById('app')
 )
-
-
-/* O JEITO ABAIXO O REACT NÃO ACEITA, TEM QUE POR A TAG (DIV)*
-
- ReactDOM.render(
-    <Primeiro />
-    <Segundo />
-    , 
-    document.getElementById('app')
-)
- */
